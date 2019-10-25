@@ -1,8 +1,15 @@
 package com.spur_u.android.Entity;
 
-public class Task {
+import org.litepal.crud.LitePalSupport;
+
+public class Task extends LitePalSupport {
     private String name;
     private int score;
+
+    public Task(String name, int score) {
+        this.name = name;
+        this.score = score;
+    }
 
     public String getName() {
         return name;
