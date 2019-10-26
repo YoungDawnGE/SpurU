@@ -44,7 +44,7 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
         Task task = myTaskList.get(i);
-        viewHolder.score.setText(task.getScore());
+        viewHolder.score.setText(String.valueOf(task.getScore()));
         viewHolder.taskName.setText(task.getName());
     }
 
