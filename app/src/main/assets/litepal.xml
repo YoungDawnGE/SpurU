@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!--//数据库名-->
+    <dbname value="Tasks" />
+    <!--//版本号，每次升级数据库，该版本号加1-->
+    <version value="1" />
+    <list>
+        <!--//实体类路径-->
+        <mapping class="com.spur_u.android.Entity.Task"></mapping>
+        <mapping class="com.spur_u.android.Entity.FinishedTask"></mapping>
+    </list>
+</litepal>
