@@ -26,4 +26,10 @@ public class Task extends LitePalSupport {
     public void setScore(int score) {
         this.score = score;
     }
+
+    @Override
+    public boolean save() {
+        return super.save();
+    }
+
 }
